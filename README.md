@@ -1,5 +1,7 @@
-In the directory of the project, first you should run npm i command, then to start the project ypu should type and execute npm start command.
+# Running the Project
+In the directory of the project, first you should  run `npm i` command, then to start the project ypu should type and execute `npm start` command.
 
+# Attributes
 - Welcome Page:
   The user can first view the Welcome Page. On this page, a promotional letter for the restaurant meets the user. A menu button is located on the page to direct the user to the menu.
 
@@ -7,7 +9,7 @@ In the directory of the project, first you should run npm i command, then to sta
   Users can list a variety of meals on the Menu page. Users can access ingredients information under the meals. Users can also sort the meals alphabetically ascending or descending according to the meal name. Users can apply filtering for vegan, vegetarian, or all of them. Users are referred to the Meals page to get detailed information about meals with Details button.
 
 - Meals Page:
-  Users can view detailed information on the meals page for the selected meal. A 3-level ingredient list as low, medium and high has been prepared for the ingredients of the meal. Users can observe price changes by selecting the ingredient they want for that meal. The quality is calculated dynamically according to the ingredient they choose.<br/>
+  Users can view detailed information on the meals page for the selected meal. A 3-level ingredient list as low, medium and high has been prepared for the ingredients of the meal. Users can observe price changes by selecting the ingredient they want for that meal. The quality is calculated dynamically according to the ingredient they choose.<br/><br/>
 According to the quality calculation;<br/>
 30 = high<br/>
 20-30 = medium-high<br/>
