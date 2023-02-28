@@ -1,6 +1,6 @@
 In the directory of the project, first you should run npm i command, then to start the project ypu should type and execute npm start command.
 
--Welcome Page:
+- Welcome Page:
   The user can first view the Welcome Page. On this page, a promotional letter for the restaurant meets the user. A menu button is located on the page to direct the user to the menu.
 
 -Menu Page:
