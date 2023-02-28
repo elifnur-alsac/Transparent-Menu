@@ -19,5 +19,6 @@ According to the quality calculation;<br/>
 
 - Error Handling:
 	In the data provided for the task, there are 2 meals whose name of meal and name of ingrediens do not match. Since the name matching method was used for meals and ingredients, in this case, there was a mismatch in the calculations of quality and price for two meals. I could not access ingredients information in data with incompatibility and had to be treated as null value. To deal with this situation, the ingredient data that gave null value in the calculation of quality and price was not included in the calculation and a warning massage was displayed for the user. Another way would be to do a substring mapping between the meals name and the ingrediensts name, but in this case there would be undesired matches. For example, incorrect calculations could occur due to the matching of the words "sauce" for the contents of "apple sauce" and "orange sauce".
+	Some ingredient quantity types do not matche with the ones in the meal list. Therefore, an error messega is displayed for those ingredients.
 	An error message is also displayed for users for meals pages that cannot be accessed using the UI.
 
