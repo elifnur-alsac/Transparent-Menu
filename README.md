@@ -7,12 +7,12 @@ In the directory of the project, first you should run npm i command, then to sta
   Users can list a variety of meals on the Menu page. Users can access ingredients information under the meals. Users can also sort the meals alphabetically ascending or descending according to the meal name. Users can apply filtering for vegan, vegetarian, or all of them. Users are referred to the Meals page to get detailed information about meals with Details button.
 
 - Meals Page:
-  Users can view detailed information on the meals page for the selected meal. A 3-level ingredient list as low, medium and high has been prepared for the ingredients of the meal. Users can observe price changes by selecting the ingredient they want for that meal. The quality is calculated dynamically according to the ingredient they choose.
-According to the quality calculation;
-30 = high
-20-30 = medium-high
-20 = medium
-10-20 = low-medium
+  Users can view detailed information on the meals page for the selected meal. A 3-level ingredient list as low, medium and high has been prepared for the ingredients of the meal. Users can observe price changes by selecting the ingredient they want for that meal. The quality is calculated dynamically according to the ingredient they choose.__
+According to the quality calculation;__
+30 = high__
+20-30 = medium-high__
+20 = medium__
+10-20 = low-medium__
 10 = low
 
 - Error Handling:
