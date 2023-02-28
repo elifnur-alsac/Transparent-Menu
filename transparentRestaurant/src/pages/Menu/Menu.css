@@ -1,0 +1,81 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.445), rgba(0, 0, 0, 0.221)), url('.../../../../assets/bg9.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 700px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid white;
+    opacity: 0.7;
+}
+
+.header-box {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 700px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    border: 1px solid white;
+    opacity: 0.7;
+    justify-content: space-between;
+}
+
+.menuHeader{
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 700px;
+    font-style: italic;
+}
+.ingName{
+    font-style: italic;
+}
+.box a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    padding: 0.5em 2em;
+    margin-top: 1rem;
+}
+
+.detailsLink{
+    text-align: right;
+    
+}
+
+.mealName {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.ingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mealBox {
+    display: flex;
+    justify-content: space-between;
+}
